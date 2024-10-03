@@ -1,0 +1,23 @@
+class Test:
+
+func Quit(KeyPress::ESC):
+App, Exit
+end
+
+func Test(Color::FireGiant, InCombat::False):
+Log, Pressed K!
+ClickColor, FireGiant
+end
+
+func AutoLootPlus(Entity::Coins):
+Interact, Coins
+end
+
+func EnableRandomInput(InCombat::False):
+RandomInput, On
+end
+
+func AutoLoot(Color::Coins):
+ClickColor, Coins
+end
+

@@ -1,0 +1,2 @@
+FireGiant::#8C4D32,#F2CE5E
+Coins::#B19015,#E9BE1D

@@ -1,0 +1,28 @@
+class KillYaks:
+
+
+func Test(Looting::True):
+Position, save
+Log, Coins Exist! Collecting Coins...
+Interact, Coins
+Sleep, 150
+Position, return
+end
+
+
+func Leave(KeyPress::ESC):
+App, Exit
+end
+
+
+func CombatChecker(Entity::FireGiant, InCombat::False, Looting::False):
+Interact, FireGiant
+end
+
+func DrinkRestore(LowPrayer::True):
+Position, save
+Log, Low Prayer! Drinking Super Restore...
+Inventory, super_restore
+Sleep, 10
+Position, return
+endexample
